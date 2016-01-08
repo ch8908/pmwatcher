@@ -1,0 +1,39 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - Mantle (2.0.6):
+    - Mantle/extobjc (= 2.0.6)
+  - Mantle/extobjc (2.0.6)
+  - Masonry (0.6.4)
+  - OCHamcrest (5.1.0)
+  - OCMockito (3.0.1):
+    - OCHamcrest (~> 5.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0.4)
+  - Mantle (~> 2.0.2)
+  - Mantle (~> 2.0.6)
+  - Masonry (~> 0.6.4)
+  - OCMockito (~> 3.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  Mantle: 299966b00759634931699f69cb6a30b9239b944d
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  OCHamcrest: abcfbf4ebd75d5aadbcc729cff0cb648faf2d1b0
+  OCMockito: 9eee3c61e42f7cb8aa015d66f8cc16849701d973
+
+COCOAPODS: 0.39.0
