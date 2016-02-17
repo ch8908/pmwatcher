@@ -24,7 +24,6 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0.4)
-  - Mantle (~> 2.0.2)
   - Mantle (~> 2.0.6)
   - Masonry (~> 0.6.4)
   - OCMockito (~> 3.0)

@@ -19,15 +19,7 @@
     [super viewDidLoad];
     self.service = [[PMService alloc] init];
     [self.service fetchDataWithCompletion:^(NSArray *data, NSError *error) {
-        NSLog(@">>>>>>>>>>>> data = %@", data);
-        NSLog(@">>>>>>>>>>>> error = %@", error);
     }];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

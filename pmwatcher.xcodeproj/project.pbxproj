@@ -15,6 +15,12 @@
 		0D2463AF1C3FAAAC0074E1DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D2463AD1C3FAAAC0074E1DC /* LaunchScreen.storyboard */; };
 		0D2463BA1C3FAAAC0074E1DC /* pmwatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2463B91C3FAAAC0074E1DC /* pmwatcherTests.m */; };
 		0D2463C51C3FAAAC0074E1DC /* pmwatcherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2463C41C3FAAAC0074E1DC /* pmwatcherUITests.m */; };
+		23D1A242517A6E551CEC7098 /* PMResponseResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D1ACAF3E12E15FF45F7C5C /* PMResponseResult.m */; };
+		23D1A290E0B6E88350188A6B /* PMRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D1AFBB5F16D2123867C6A3 /* PMRecord.m */; };
+		23D1A430C6DAB58B7F8F48E6 /* PMRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D1AFBB5F16D2123867C6A3 /* PMRecord.m */; };
+		23D1A4F2ACF536AF502EBD02 /* PMResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D1A0DAEE779374A00CC682 /* PMResponse.m */; };
+		23D1AAB2D40B59D5C5E79509 /* PMResponseResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D1ACAF3E12E15FF45F7C5C /* PMResponseResult.m */; };
+		23D1AC0280369DA036CF785E /* PMResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D1A0DAEE779374A00CC682 /* PMResponse.m */; };
 		6924D70B75E4566FEAF268C8 /* libPods-pmwatcherTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 068E924BF69E640FA4923F66 /* libPods-pmwatcherTests.a */; };
 		6BE6466478947A009CF2E772 /* PMService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE6405A145FD5060C984CAA /* PMService.m */; };
 		6BE6497E317F962C7CDFECD1 /* PMService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE6405A145FD5060C984CAA /* PMService.m */; };
@@ -56,6 +62,12 @@
 		0D2463C01C3FAAAC0074E1DC /* pmwatcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pmwatcherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D2463C41C3FAAAC0074E1DC /* pmwatcherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pmwatcherUITests.m; sourceTree = "<group>"; };
 		0D2463C61C3FAAAC0074E1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23D1A0DAEE779374A00CC682 /* PMResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMResponse.m; sourceTree = "<group>"; };
+		23D1A2C5E34D587F0A2AC383 /* PMResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMResponse.h; sourceTree = "<group>"; };
+		23D1A3717E626C3E371D0443 /* PMResponseResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMResponseResult.h; sourceTree = "<group>"; };
+		23D1A499A8CD0F9C0DA30AC1 /* PMRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMRecord.h; sourceTree = "<group>"; };
+		23D1ACAF3E12E15FF45F7C5C /* PMResponseResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMResponseResult.m; sourceTree = "<group>"; };
+		23D1AFBB5F16D2123867C6A3 /* PMRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMRecord.m; sourceTree = "<group>"; };
 		245590E11FBC193B538AF670 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		3BD6AEDE7FAD2745F527C005 /* Pods-pmwatcherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pmwatcherTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pmwatcherTests/Pods-pmwatcherTests.debug.xcconfig"; sourceTree = "<group>"; };
 		53F7B2A4CEBB47015F2C12AE /* Pods-pmwatcherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pmwatcherTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-pmwatcherTests/Pods-pmwatcherTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +139,7 @@
 				0D2463B01C3FAAAC0074E1DC /* Info.plist */,
 				0D24639F1C3FAAAC0074E1DC /* Supporting Files */,
 				6BE64014828823AFE6757FD8 /* service */,
+				23D1AA6C248C29DE689C9B63 /* model */,
 			);
 			path = pmwatcher;
 			sourceTree = "<group>";
@@ -155,6 +168,19 @@
 				0D2463C61C3FAAAC0074E1DC /* Info.plist */,
 			);
 			path = pmwatcherUITests;
+			sourceTree = "<group>";
+		};
+		23D1AA6C248C29DE689C9B63 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				23D1A0DAEE779374A00CC682 /* PMResponse.m */,
+				23D1A2C5E34D587F0A2AC383 /* PMResponse.h */,
+				23D1ACAF3E12E15FF45F7C5C /* PMResponseResult.m */,
+				23D1A3717E626C3E371D0443 /* PMResponseResult.h */,
+				23D1AFBB5F16D2123867C6A3 /* PMRecord.m */,
+				23D1A499A8CD0F9C0DA30AC1 /* PMRecord.h */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 		329F1340D72EDBD1E7BEE18B /* Frameworks */ = {
@@ -419,6 +445,9 @@
 				0D2463A41C3FAAAC0074E1DC /* AppDelegate.m in Sources */,
 				0D2463A11C3FAAAC0074E1DC /* main.m in Sources */,
 				6BE6497E317F962C7CDFECD1 /* PMService.m in Sources */,
+				23D1A4F2ACF536AF502EBD02 /* PMResponse.m in Sources */,
+				23D1A242517A6E551CEC7098 /* PMResponseResult.m in Sources */,
+				23D1A430C6DAB58B7F8F48E6 /* PMRecord.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +457,9 @@
 			files = (
 				0D2463BA1C3FAAAC0074E1DC /* pmwatcherTests.m in Sources */,
 				6BE6466478947A009CF2E772 /* PMService.m in Sources */,
+				23D1AC0280369DA036CF785E /* PMResponse.m in Sources */,
+				23D1AAB2D40B59D5C5E79509 /* PMResponseResult.m in Sources */,
+				23D1A290E0B6E88350188A6B /* PMRecord.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
