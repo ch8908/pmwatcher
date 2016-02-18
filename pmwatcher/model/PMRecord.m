@@ -6,11 +6,19 @@
 #import "PMRecord.h"
 
 @implementation PMRecord
+- (instancetype)initWithSiteName:(NSString *) siteName pm25:(NSString *) pm25 {
+    self = [super init];
+    if (self) {
+        _siteName = [siteName copy];
+        _pm25 = [pm25 copy];
+    }
+    return self;
+}
 
 + (NSDictionary *)JSONKeyPathsByPropertyKey {
     return @{
       @"siteName" : @"SiteName",
-      @"pm25" : @"PSI",
+      @"pm25" : @"PM25",
     };
 }
 

@@ -11,4 +11,7 @@
 @interface PMRecord : MTLModel<MTLJSONSerializing>
 @property (nonatomic, readonly, copy) NSString *siteName;
 @property (nonatomic, readonly, copy) NSString *pm25;
+
+- (instancetype)initWithSiteName:(NSString *) siteName pm25:(NSString *) pm25;
+
 @end
